@@ -6,11 +6,10 @@ const postSchema = new Schema(
       type: String
     },
     creatorId: {
-      type: Object,
-      required: true, 
+      type: String
     },
     picPath: {
-      type: String,
+      type: String
     }, 
     picName:{
       type: String
